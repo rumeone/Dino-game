@@ -33,7 +33,7 @@
 }
 
 .jump {
-    animation: jumpDino 0.5gs linear;
+    animation: jumpDino 0.5s linear;
 }
 
 @keyframes jumpDino {
