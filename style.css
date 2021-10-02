@@ -33,21 +33,33 @@
 }
 
 .jump {
-    animation: jumpDino 1s linear;
+    animation: jumpDino 0.5gs linear;
 }
 
 @keyframes jumpDino {
     0% {
         top: 150px;
     }
+    10%{
+        top: 140px;
+    }
     30% {
         top: 130px;
+    }
+    45% {
+        top: 100px;
     }
     50% {
         top: 80px;
     }
+    65% {
+        top: 100px;
+    }
     80% {
         top: 130px;
+    }
+    90% {
+        top: 140px;
     }
     100% {
         top: 150px;
