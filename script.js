@@ -1,5 +1,4 @@
-const dino = document.getElementById("dino");
-const cactus = document.getElementById("cactus");
+const dino = document.getElementById("Dino");
 
 document.addEventListener("keydown", function(event) {
     jump();
@@ -22,3 +21,5 @@ let isAlive = setInterval(function () {
         alert("Game Over");
         }
 }, 10)
+
+

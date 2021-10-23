@@ -1,18 +1,16 @@
 .game {
     width: 600px;
     height: 200px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid gray;
     margin: auto;
 }
-#dino {
-    width: 50px;
-    height: 50px;
-    background-image: url("image/dino.png");
-    background-size: 50px 50px;
+
+#Dino {
     position: relative;
-    top: 150px;
+    top: -150px;
+    background-size: 50px 50px;
 }
-#cactus {
+/*#cactus {
     width: 45px;
     height: 45px;
     background-image: url("image/cactus.png");
@@ -21,6 +19,13 @@
     top: 105px;
     left: 575px;
     animation: cactusMove 1.5s infinite linear;
+}*/
+
+#Cactus {
+    position: relative;
+    top: 120px;
+    left:575px;
+    background-size: 50px 50px;
 }
 
 @keyframes cactusMove {
@@ -40,26 +45,62 @@
     0% {
         top: 150px;
     }
+    5%{
+        top: 143px;
+    }
     10%{
-        top: 140px;
+        top: 136px;
+    }
+    15% {
+        top:129px;
+    }
+    20% {
+        top: 122px;
+    }
+    25% {
+        top:115px;
     }
     30% {
-        top: 130px;
+        top:108px;
+    }
+    35% {
+        top:101px;
+    }
+    40% {
+        top:94px;
     }
     45% {
-        top: 100px;
+        top: 87px;
     }
     50% {
         top: 80px;
     }
+    55% {
+        top: 87px;
+    }
+    60% {
+        top: 94px;
+    }
     65% {
-        top: 100px;
+        top: 101px;
+    }
+    70% {
+        top: 108px;
+    }
+    75% {
+        top: 115px;
     }
     80% {
-        top: 130px;
+        top: 122px;
+    }
+    85% {
+        top: 129px;
     }
     90% {
-        top: 140px;
+        top: 136px;
+    }
+    95% {
+        top: 143px;
     }
     100% {
         top: 150px;
